@@ -26,7 +26,7 @@ cin >> tabl[i][j];
 cin >> restricciones;
 cin >> tabl[i][n+m];;
 tabl[i][n+i] = 1; //variable 
-if (restricciones != "<=" && ((tabla[i][n+
+if (restricciones != "<=" && ({tabla[i]{n+
 for (int j= 0; j <n; j++){
 tabl[i][j] *= -1;
  }
